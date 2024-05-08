@@ -4,7 +4,7 @@ import os
 
 #get the API key from the Google Developer Console
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
-VIDEO_ID = {"biden2021": "UlbyOeMCL0g", "trump2017": "a-mfhjaPvsM", "obama2013":"RvH01Z6ic0M", "obama2009": "VjnygQ02aW4"}
+VIDEO_ID = {"biden2021": "UlbyOeMCL0g", "trump2017": "a-mfhjaPvsM", "obama2013":"RvH01Z6ic0M"}
 
 def get_comments(api_key, video_id):
     youtube = build('youtube', 'v3', developerKey=api_key)
