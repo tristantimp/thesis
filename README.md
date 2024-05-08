@@ -1,7 +1,7 @@
-# thesis
-Install libraries with requirements.txt
+# Thesis
+Install python packages with requirements.txt
 
-Run youtube_query.py in order to get the csv files for the comments from the YouTube videos. 
+Before running youtube_query.py, create a Google Developer account and an API key for the YouTube Data API v3. Run youtube_query.py in order to get the csv files for the comments from the YouTube videos. 
 The script must be run 3 times, with a different video_id each time, to get 3 csv files. 
 
 Preprocess the data using preprocessing.ipynb. 
